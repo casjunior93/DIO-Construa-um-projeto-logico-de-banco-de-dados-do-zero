@@ -1,4 +1,4 @@
-# Desafio de projeto - Construindo seu Primeiro Projeto Lógico de Banco de Dados
+# Desafio de projeto - Construa um Projeto Lógico de Banco de Dados do Zero
 
 Em um desafio anterior, fiz um modelo conceitual de uma oficina para veículos. Neste desafio, refinei mais um pouco este modelo e o utilizei para a modelagem do projeto lógico.
 
