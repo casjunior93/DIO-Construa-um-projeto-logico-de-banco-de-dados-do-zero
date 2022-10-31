@@ -50,3 +50,44 @@ INSERT INTO servico_por_mecanico (idServicos, idMecanico) VALUES
     (2, 2),
     (3, 2);
     
+-- Inserindo Ordem
+DESC ordem;
+
+INSERT INTO ordem (idCliente, status, data_emissao, valor, numero, data_conclusao) VALUES 
+	(1, 'Em andamento', '2022-10-28', '80.00', '001', NULL),
+    (2, 'Finalizado', '2022-10-29', '65.00', '003', '2022-10-30'),
+    (3, 'Finalizado', '2022-10-28', '65.00', 004, '2022-10-30');
+    
+-- Inserindo Ordem por mecanico
+DESC ordem_por_mecanico;
+
+INSERT INTO ordem_por_mecanico (idOrdem, idMecanico) VALUES 
+	(1, 2),
+    (2, 1),
+    (3, 1);
+    
+-- Inserindo Peça por Ordem
+DESC peca_por_ordem;
+
+INSERT INTO peca_por_ordem (idPeca, idOrdem) VALUES 
+	(3, 1),
+    (4, 2),
+    (4, 3);
+    
+-- Inserindo Serviço por Ordem
+DESC servico_por_ordem;
+
+INSERT INTO servico_por_ordem (idServicos, idOrdem) VALUES 
+	(2, 1),
+    (3, 1),
+    (1, 2),
+    (1, 3);
+    
+-- Inserindo Veiculo por Ordem
+DESC veiculo_por_ordem;
+
+INSERT INTO veiculo_por_ordem (idVeiculo, idOrdem) VALUES 
+	(1, 1),
+    (2, 2),
+    (3, 3);
+    

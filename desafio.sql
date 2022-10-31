@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Ordem` (
   `data_emissao` DATE NOT NULL,
   `valor` FLOAT NOT NULL,
   `numero` INT NOT NULL,
-  `data_conclusao` DATE NOT NULL,
+  `data_conclusao` DATE NULL,
   PRIMARY KEY (`idOrdem`, `idCliente`),
   CONSTRAINT `fk_Ordem_Cliente`
     FOREIGN KEY (`idCliente`)

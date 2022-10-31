@@ -17,5 +17,3 @@ Algumas diretrizes foram seguidas:
 * Os tópicos supracitados devem estar presentes nas queries;
 * Elabore perguntas que podem ser respondidas pelas consultas;
 * As cláusulas podem estar presentes em mais de uma query;
-
-** EM ANDAMENTO **
